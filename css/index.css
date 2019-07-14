@@ -78,6 +78,10 @@ nav {
     margin-right: 60px;
 }
 
+.logo2 {
+    display: none;
+}
+
 .toolbar {
     text-decoration: none;
     color: black;
@@ -86,7 +90,7 @@ nav {
 }
 
 .logo {
-    display: inline-block;
+    display: flex;
 }
 
 .titlediv {
@@ -96,7 +100,7 @@ nav {
 
 .title-button {
     display: flex;
-    text-align: left;
+    text-align: center;
     flex-direction: column;
     width: 40%;
     padding-top: 20px;
@@ -107,9 +111,12 @@ nav {
 
 .title {
     display: flex;
+    flex-direction: column;
     font-size: 500%;
-    text-align: center;
     margin-top: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15%;
 }
 
 .but1 {
@@ -130,7 +137,6 @@ nav {
 
 .pic1 {
     margin-top: 100px;
-    width: 40%;
     margin-bottom: 70px;
 }
 
@@ -149,7 +155,7 @@ hr {
     justify-content: space-between;
 }
 
-div .features-blurb {
+.features-blurb {
     display: flex;
     width: 50%;
     font-size:115%;
@@ -161,7 +167,7 @@ h1 {
     width: 30%;
 }
 
-div .about-blurb {
+.about-blurb {
     display: flex;
     width: 50%;
     font-size:115%;
@@ -207,13 +213,13 @@ div .about-blurb {
     justify-content:flex-start;
 }
 
-div .s2 {
+.s2 {
     display: flex;
     margin-bottom: 10px;
     text-align:left;
 }
 
-div .copyright {
+.copyright {
     display:flex;
     width: 100%;
     margin-top: 100px;
@@ -318,3 +324,120 @@ ul {
 	margin-left: 100px;
 }
 
+@media(max-width: 800px) {
+    .logo {
+        display:none;
+    }
+
+    .logo2-div {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    nav {
+        margin: 0px;
+    }
+
+    .titlediv {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+    }
+
+   
+    .title-button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0px; 
+        margin-bottom: 30px;
+    }
+
+    .but1 {
+        margin: auto;
+        width: 30%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    .pic1 {
+        display: none;
+    }
+} 
+
+@media(max-width: 500px){ 
+   
+    .logo2 {
+        margin-top: 7%;
+        margin-bottom: 3%;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+   
+    .toolbar {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid black;
+        justify-content: center;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    #contact-top-nav {
+        border-bottom: 1px solid black;
+    }
+
+    .title {
+        font-size: 400%;
+    }
+
+    .but1 {
+        width: 40%;
+        font-size: 90%;
+    }
+
+    .features-blurb {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about-blurb {
+        width: 100%;
+    }
+
+    .lower-blurb {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+} 
