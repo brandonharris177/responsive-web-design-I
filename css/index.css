@@ -91,9 +91,18 @@ nav {
 
 .titlediv {
     display: flex;
+    flex-flow: row wrap;
+}
+
+.title-button {
+    display: flex;
     text-align: left;
-    margin-left: 130px;
     flex-direction: column;
+    width: 40%;
+    padding-top: 20px;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-left: 15%
 }
 
 .title {
@@ -105,34 +114,46 @@ nav {
 
 .but1 {
     background-color: White; 
-    border: 3px solid black;
+    border: 1px solid black;
     color: Black;
-    padding: 10px 10px;
+    padding: 7px 7px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    border-radius: 10px;
-    width: 150px;
-    animation-duration: 10s;
-    animation-name: bounce;
-    font-weight: bold;
+    display: flex;
+    font-size: 120%;
+    justify-content: center;
+    width: 50%;
+    /* font-weight: bold; */
+    margin-left: 15%;
+    margin-top: 20px;
 }
 
 .pic1 {
     margin-top: 100px;
-    /* position: absolute; right: 200px; top: 0px; */
-
+    width: 40%;
+    margin-bottom: 70px;
 }
 
-div .class1 {
-    display: inline-block;
-    width: 43%;
-    margin-left: 130px;
+hr {
+    border: none;
+    height: 2px;
+    color: #333; 
+    background-color: #333; 
+}
+
+.upper-text {
+    display: flex;
+    flex-flow: row wrap;
     margin-top: 50px;
     margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+div .features-blurb {
+    display: flex;
+    width: 50%;
     font-size:115%;
-    /* margin-right:  */
+    flex-direction: column;
 }
 
 h1 {
@@ -140,63 +161,66 @@ h1 {
     width: 30%;
 }
 
-div .class3 {
-    display: inline-block;
-    width: 43%;
+div .about-blurb {
+    display: flex;
+    width: 50%;
     font-size:115%;
+    flex-direction: column;
+}
+
+.middle-pic-div {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .middle-img {
-    margin-left: 130px;
+    width: 100%;
 }
 
-div .middlesection {
-	margin-left: 130px;
+.lower-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-div .class2 {
-    display:inline-block;
-    width: 25%;
+.lower-blurb {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 0px;
     font-size: 115%;
-    margin-right: 70px;
 }
 
-div .spacing {
-    display: inline-block;
-    margin: 10px;
-    margin-left: 0px;
-    text-align:left;
-    width: 100%;
+.contact-info {
+    margin-top: 40px;
+    display:flex;
+    font-size: 110%;
+    flex-direction: column;
+}
+
+.phone-number {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content:flex-start;
 }
 
 div .s2 {
-    display: inline-block;
+    display: flex;
     margin-bottom: 10px;
-    margin-left: 0px;
     text-align:left;
 }
 
-.ci {
-    display:inline-block;
-    margin-left: 130px;
-    font-size: 110%;
-}
-
 div .copyright {
-    display:inline-block;
+    display:flex;
     width: 100%;
     margin-top: 100px;
-    text-align: center;
+    justify-content: center;
 	margin-bottom: 100px;
 }
 
-.navclass {
-	margin-top: 50px;
-	margin-bottom: 25px;
-}
 
 .simaster {
 	display: flex;
