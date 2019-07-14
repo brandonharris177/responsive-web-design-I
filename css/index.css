@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5%;
     margin-right: 60px;
 }
 
@@ -86,7 +86,7 @@ nav {
     text-decoration: none;
     color: black;
     margin-top: 20px;
-    color:lightgray;
+    color:darkgray;
 }
 
 .logo {
@@ -369,6 +369,8 @@ ul {
         width: 100%;
         margin-top: 0px; 
         margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .but1 {
