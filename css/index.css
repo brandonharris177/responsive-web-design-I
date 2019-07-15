@@ -106,7 +106,7 @@ nav {
     padding-top: 20px;
     justify-content: center;
     margin-bottom: 70px;
-    margin-left: 15%
+    margin-left: 15%;
 }
 
 .title {
@@ -116,7 +116,6 @@ nav {
     margin-top: 120px;
     justify-content: center;
     text-align: center;
-    margin-right: 15%;
 }
 
 .but1 {
@@ -138,6 +137,8 @@ nav {
 .pic1 {
     margin-top: 100px;
     margin-bottom: 70px;
+    width: 37%;
+    height: 37%;
 }
 
 hr {
@@ -322,6 +323,46 @@ ul {
 	margin-bottom: 10px;
 	background: white;
 	margin-left: 100px;
+}
+
+@media(max-width: 1100px) {
+    .titlediv {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+    }
+
+   
+    .title-button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0px; 
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .but1 {
+        margin: auto;
+        width: 30%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .pic1 {
+        display: none;
+    }
 }
 
 @media(max-width: 800px) {
